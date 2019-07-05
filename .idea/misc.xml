@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-springcloud-eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/meite-shop-service-api/meite-shop-service-api-member/pom.xml" />
+        <option value="$PROJECT_DIR$/meite-shop-service-api/meite-shop-service-api-wechat/pom.xml" />
+        <option value="$PROJECT_DIR$/meite-shop-entity/meite-shop-entity-wechat/pom.xml" />
+        <option value="$PROJECT_DIR$/meite-shop-service-api-impl/meite-shop-service-wechat-impl/pom.xml" />
+        <option value="$PROJECT_DIR$/meite-shop-service-api-impl/meite-shop-service-member-impl/pom.xml" />
+        <option value="$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-springcloud-zuul/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/meite-shop-service-impl/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

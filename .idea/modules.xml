@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/meite-shop-basics/meite-shop-basics.iml" filepath="$PROJECT_DIR$/meite-shop-basics/meite-shop-basics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-springcloud-eureka/meite-shop-basics-springcloud-eureka.iml" filepath="$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-springcloud-eureka/meite-shop-basics-springcloud-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-springcloud-zuul/meite-shop-basics-springcloud-zuul.iml" filepath="$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-springcloud-zuul/meite-shop-basics-springcloud-zuul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/meite-shop-entity/meite-shop-entity.iml" filepath="$PROJECT_DIR$/meite-shop-entity/meite-shop-entity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/meite-shop-entity/meite-shop-entity-wechat/meite-shop-entity-wechat.iml" filepath="$PROJECT_DIR$/meite-shop-entity/meite-shop-entity-wechat/meite-shop-entity-wechat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/meite-shop-parent.iml" filepath="$PROJECT_DIR$/meite-shop-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/meite-shop-service-api/meite-shop-service-api.iml" filepath="$PROJECT_DIR$/meite-shop-service-api/meite-shop-service-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/meite-shop-service-api-impl/meite-shop-service-api-impl.iml" filepath="$PROJECT_DIR$/meite-shop-service-api-impl/meite-shop-service-api-impl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/meite-shop-service-api/meite-shop-service-api-member/meite-shop-service-api-member.iml" filepath="$PROJECT_DIR$/meite-shop-service-api/meite-shop-service-api-member/meite-shop-service-api-member.iml" />
+      <module fileurl="file://$PROJECT_DIR$/meite-shop-service-api/meite-shop-service-api-wechat/meite-shop-service-api-wechat.iml" filepath="$PROJECT_DIR$/meite-shop-service-api/meite-shop-service-api-wechat/meite-shop-service-api-wechat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/meite-shop-service-api-impl/meite-shop-service-member-impl/meite-shop-service-member-impl.iml" filepath="$PROJECT_DIR$/meite-shop-service-api-impl/meite-shop-service-member-impl/meite-shop-service-member-impl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/meite-shop-service-api-impl/meite-shop-service-wechat-impl/meite-shop-service-wechat-impl.iml" filepath="$PROJECT_DIR$/meite-shop-service-api-impl/meite-shop-service-wechat-impl/meite-shop-service-wechat-impl.iml" />
+    </modules>
+  </component>
+</project>

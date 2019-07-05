@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="meite-shop-basics" />
+        <module name="meite-shop-basics-springcloud-eureka" />
+        <module name="meite-shop-basics-springcloud-zuul" />
+        <module name="meite-shop-entity" />
+        <module name="meite-shop-entity-wechat" />
+        <module name="meite-shop-service-api" />
+        <module name="meite-shop-service-api-impl" />
+        <module name="meite-shop-service-api-member" />
+        <module name="meite-shop-service-api-wechat" />
+        <module name="meite-shop-service-member-impl" />
+        <module name="meite-shop-service-wechat-impl" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="meite-shop-basics" target="1.8" />
+      <module name="meite-shop-basics-springcloud-eureka" target="1.8" />
+      <module name="meite-shop-basics-springcloud-zuul" target="1.8" />
+      <module name="meite-shop-entity" target="1.8" />
+      <module name="meite-shop-entity-wechat" target="1.8" />
+      <module name="meite-shop-parent" target="1.8" />
+      <module name="meite-shop-service-api" target="1.8" />
+      <module name="meite-shop-service-api-impl" target="1.8" />
+      <module name="meite-shop-service-api-member" target="1.8" />
+      <module name="meite-shop-service-api-wechat" target="1.8" />
+      <module name="meite-shop-service-impl" target="1.8" />
+      <module name="meite-shop-service-member-impl" target="1.8" />
+      <module name="meite-shop-service-wechat-impl" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
