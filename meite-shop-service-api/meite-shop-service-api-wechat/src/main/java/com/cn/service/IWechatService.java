@@ -13,5 +13,4 @@ public interface IWechatService {
     @ApiOperation(value = "获取微信app")
     @GetMapping("/getApp")
     AppEntity getApp();
-
 }
