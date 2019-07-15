@@ -1,13 +1,15 @@
 package com.cn;
 
-import com.spring4all.swagger.EnableSwagger2Doc;
+import com.ctrip.framework.apollo.spring.annotation.EnableApolloConfig;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
+import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 @SpringBootApplication
 @EnableEurekaClient
-@EnableSwagger2Doc
+@EnableApolloConfig
+@EnableSwagger2
 public class WechatImplApplication {
 
 	public static void main(String[] args) {

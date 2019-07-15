@@ -1,27 +1,27 @@
-###·şÎñÆô¶¯¶Ë¿ÚºÅ
-server:
-  port: 80
-###·şÎñÃû³Æ(·şÎñ×¢²áµ½eurekaÃû³Æ)
-spring:
-    application:
-        name: app-zuul
-###·şÎñ×¢²áµ½eurekaµØÖ·
-eureka:
-  client:
-    service-url:
-           defaultZone: http://localhost:8100/eureka
-
-
-### ÅäÖÃÍø¹Ø·´Ïò´úÀí
-zuul:
-  routes:
-    api-a:
-     ### ÒÔ /api-wechat/·ÃÎÊ×ª·¢
-      path: /api-wechat/**
-      serviceId: app-wechat
-    api-b:
-        ### ÒÔ /api-member/·ÃÎÊ×ª·¢
-      path: /api-member/**
-      serviceId: app-member
-
-
+####æœåŠ¡å¯åŠ¨ç«¯å£å·
+#server:
+#  port: 80
+####æœåŠ¡åç§°(æœåŠ¡æ³¨å†Œåˆ°eurekaåç§°)
+#spring:
+#    application:
+#        name: app-zuul
+####æœåŠ¡æ³¨å†Œåˆ°eurekaåœ°å€
+#eureka:
+#  client:
+#    service-url:
+#           defaultZone: http://192.168.253.137:8080/eureka
+#
+#
+#### é…ç½®ç½‘å…³åå‘ä»£ç†
+#zuul:
+#  routes:
+#    api-a:
+#     ### ä»¥ /api-wechat/è®¿é—®è½¬å‘
+#      path: /api-wechat/**
+#      serviceId: app-wechat
+#    api-b:
+#        ### ä»¥ /api-member/è®¿é—®è½¬å‘
+#      path: /api-member/**
+#      serviceId: app-member
+#
+#
