@@ -9,6 +9,8 @@
         <module name="meite-shop-basics" />
         <module name="meite-shop-basics-springcloud-eureka" />
         <module name="meite-shop-basics-springcloud-zuul" />
+        <module name="meite-shop-common" />
+        <module name="meite-shop-common-core" />
         <module name="meite-shop-entity" />
         <module name="meite-shop-entity-wechat" />
         <module name="meite-shop-service-api" />
@@ -23,6 +25,8 @@
       <module name="meite-shop-basics" target="1.8" />
       <module name="meite-shop-basics-springcloud-eureka" target="1.8" />
       <module name="meite-shop-basics-springcloud-zuul" target="1.8" />
+      <module name="meite-shop-common" target="1.8" />
+      <module name="meite-shop-common-core" target="1.8" />
       <module name="meite-shop-entity" target="1.8" />
       <module name="meite-shop-entity-wechat" target="1.8" />
       <module name="meite-shop-parent" target="1.8" />

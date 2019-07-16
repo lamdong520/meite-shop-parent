@@ -11,6 +11,7 @@
         <option value="$PROJECT_DIR$/meite-shop-service-api-impl/meite-shop-service-wechat-impl/pom.xml" />
         <option value="$PROJECT_DIR$/meite-shop-service-api-impl/meite-shop-service-member-impl/pom.xml" />
         <option value="$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-springcloud-zuul/pom.xml" />
+        <option value="$PROJECT_DIR$/meite-shop-common/meite-shop-common-core/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

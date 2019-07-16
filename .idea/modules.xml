@@ -5,6 +5,8 @@
       <module fileurl="file://$PROJECT_DIR$/meite-shop-basics/meite-shop-basics.iml" filepath="$PROJECT_DIR$/meite-shop-basics/meite-shop-basics.iml" />
       <module fileurl="file://$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-springcloud-eureka/meite-shop-basics-springcloud-eureka.iml" filepath="$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-springcloud-eureka/meite-shop-basics-springcloud-eureka.iml" />
       <module fileurl="file://$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-springcloud-zuul/meite-shop-basics-springcloud-zuul.iml" filepath="$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-springcloud-zuul/meite-shop-basics-springcloud-zuul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/meite-shop-common/meite-shop-common.iml" filepath="$PROJECT_DIR$/meite-shop-common/meite-shop-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/meite-shop-common/meite-shop-common-core/meite-shop-common-core.iml" filepath="$PROJECT_DIR$/meite-shop-common/meite-shop-common-core/meite-shop-common-core.iml" />
       <module fileurl="file://$PROJECT_DIR$/meite-shop-entity/meite-shop-entity.iml" filepath="$PROJECT_DIR$/meite-shop-entity/meite-shop-entity.iml" />
       <module fileurl="file://$PROJECT_DIR$/meite-shop-entity/meite-shop-entity-wechat/meite-shop-entity-wechat.iml" filepath="$PROJECT_DIR$/meite-shop-entity/meite-shop-entity-wechat/meite-shop-entity-wechat.iml" />
       <module fileurl="file://$PROJECT_DIR$/meite-shop-parent.iml" filepath="$PROJECT_DIR$/meite-shop-parent.iml" />

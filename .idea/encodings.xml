@@ -5,6 +5,8 @@
     <file url="file://$PROJECT_DIR$/meite-shop-basics" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-springcloud-eureka" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-springcloud-zuul" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/meite-shop-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/meite-shop-common/meite-shop-common-core" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/meite-shop-entity" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/meite-shop-entity/meite-shop-entity-wechat" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/meite-shop-service-api" charset="UTF-8" />

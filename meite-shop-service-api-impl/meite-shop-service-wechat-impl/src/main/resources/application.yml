@@ -1,3 +1,40 @@
+#logging:
+#  level:
+#    org.springframework.web: INFO
+#    com.github.binarywang.demo.wx.mp: DEBUG
+#    me.chanjar.weixin: DEBUG
+#wx:
+#  mp:
+#    configs:
+#      - appId: wxc08fba8c6a398ff5 #（一个公众号的appid）
+#        secret: f4cc241da6bf2015207dd86f9094dc9a #（公众号的appsecret）
+#        token: lamdong #（接口配置里的Token值）
+#
+#mayikt:
+#  weixin:
+#    registration:
+#       code:
+#       ###微信注册码消息
+#        message:  您的注册码为:%s，谢谢关注踏雪无痕公众号
+#    ###默认提示消息
+#    default:
+#      registration:
+#        code:
+#          message: 请输入手机号，获取注册码
+
+spring:
+  redis: #Reids配置
+    database: 1  # Redis数据库索引（默认为0
+    host: 192.168.3.150
+    port: 6379  # Redis服务器连接端口
+    pool:
+      max-active: 200 # 连接池最大连接数（使用负值表示没有限制）
+      max-idle: 50 # 连接池中的最大空闲连接
+      max-wait: 15000 # 连接池最大阻塞等待时间（使用负值表示没有限制）
+      min-idle: 1 # 连接池中的最小空闲连接
+
+
+
 ####服务启动端口号
 #server:
 #  port: 8200
