@@ -1,6 +1,8 @@
 package com.cn.mp.handler;
 
+import com.cn.feign.MembersServiceFeign;
 import com.cn.mp.builder.TextBuilder;
+import com.cn.utils.base.BaseResponse;
 import com.cn.utils.constant.Constants;
 import com.cn.utils.utils.RedisUtil;
 import com.cn.utils.utils.RegexUtils;
@@ -26,6 +28,9 @@ public class MsgHandler extends AbstractHandler {
 
     @Autowired
     private RedisUtil redisUtil;
+    @Autowired
+    private MembersServiceFeign membersServiceFeign;
+
     /**
      * 发送验证码消息
      */
@@ -61,8 +66,18 @@ public class MsgHandler extends AbstractHandler {
         }
         //1 获取微信客户端发送的消息
         String fromContent = wxMessage.getContent();
+
         // 2使用正则表达式验证手机号格式
         if(RegexUtils.checkMobile(fromContent)){
+            //验证手机号是否注册过，如果注册过返回提示手机号已注册
+            //调用会员接口，根据手机号查询用户是否存在
+            BaseResponse response = membersServiceFeign.existMobile(fromContent);
+            if(response.getCode().equals(Constants.HTTP_RES_CODE_200)){
+                return new TextBuilder().build("该手机号码" + fromContent + "已注册，请换一个手机号!", wxMessage, weixinService);
+            }
+            if(!response.getCode().equals(Constants.HTTP_RES_CODE_EXISTMOBILE_202)){
+                return new TextBuilder().build(response.getMsg(), wxMessage, weixinService);
+            }
             //3随机生成四位数验证码返回
             int code = registCode();
             String content = registrationCodeMessage.format(registrationCodeMessage, code);

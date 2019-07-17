@@ -12,6 +12,7 @@
         <module name="meite-shop-common" />
         <module name="meite-shop-common-core" />
         <module name="meite-shop-entity" />
+        <module name="meite-shop-entity-member" />
         <module name="meite-shop-entity-wechat" />
         <module name="meite-shop-service-api" />
         <module name="meite-shop-service-api-impl" />
@@ -28,6 +29,7 @@
       <module name="meite-shop-common" target="1.8" />
       <module name="meite-shop-common-core" target="1.8" />
       <module name="meite-shop-entity" target="1.8" />
+      <module name="meite-shop-entity-member" target="1.8" />
       <module name="meite-shop-entity-wechat" target="1.8" />
       <module name="meite-shop-parent" target="1.8" />
       <module name="meite-shop-service-api" target="1.8" />

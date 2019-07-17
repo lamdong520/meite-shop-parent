@@ -1,3 +1,4 @@
+
 #
 #server:
 #  port: 8300
@@ -19,3 +20,9 @@
 #  contact:
 #    name: 踏雪无痕
 #    email: lamdong520@163.com
+spring:
+  datasource: # 主数据源，默认的
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://192.168.253.137:3306/meite_member?useUnicode=true&characterEncoding=utf-8&serverTimezone=UTC&useSSL=true
+    username: root
+    password: root

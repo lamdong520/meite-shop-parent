@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/meite-shop-common/meite-shop-common.iml" filepath="$PROJECT_DIR$/meite-shop-common/meite-shop-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/meite-shop-common/meite-shop-common-core/meite-shop-common-core.iml" filepath="$PROJECT_DIR$/meite-shop-common/meite-shop-common-core/meite-shop-common-core.iml" />
       <module fileurl="file://$PROJECT_DIR$/meite-shop-entity/meite-shop-entity.iml" filepath="$PROJECT_DIR$/meite-shop-entity/meite-shop-entity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/meite-shop-entity/meite-shop-entity-member/meite-shop-entity-member.iml" filepath="$PROJECT_DIR$/meite-shop-entity/meite-shop-entity-member/meite-shop-entity-member.iml" />
       <module fileurl="file://$PROJECT_DIR$/meite-shop-entity/meite-shop-entity-wechat/meite-shop-entity-wechat.iml" filepath="$PROJECT_DIR$/meite-shop-entity/meite-shop-entity-wechat/meite-shop-entity-wechat.iml" />
       <module fileurl="file://$PROJECT_DIR$/meite-shop-parent.iml" filepath="$PROJECT_DIR$/meite-shop-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/meite-shop-service-api/meite-shop-service-api.iml" filepath="$PROJECT_DIR$/meite-shop-service-api/meite-shop-service-api.iml" />
