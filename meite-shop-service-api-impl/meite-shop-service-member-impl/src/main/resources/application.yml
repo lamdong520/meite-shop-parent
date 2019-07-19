@@ -26,3 +26,8 @@ spring:
     url: jdbc:mysql://192.168.253.137:3306/meite_member?useUnicode=true&characterEncoding=utf-8&serverTimezone=UTC&useSSL=true
     username: root
     password: root
+
+####打印myBatis日志
+logging:
+  level:
+   com.cn.mapper: DEBUG

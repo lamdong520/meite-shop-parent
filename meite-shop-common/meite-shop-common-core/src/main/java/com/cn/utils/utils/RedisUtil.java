@@ -57,7 +57,7 @@ public class RedisUtil {
 	 * 
 	 * @param key
 	 */
-	public void remove(String key) {
-		stringRedisTemplate.delete(key);
+	public boolean remove(String key) {
+		return stringRedisTemplate.delete(key);
 	}
 }

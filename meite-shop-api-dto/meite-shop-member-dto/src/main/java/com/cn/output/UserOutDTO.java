@@ -1,4 +1,4 @@
-package com.cn.entity;
+package com.cn.output;
 
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
@@ -7,8 +7,8 @@ import lombok.Data;
 import java.util.Date;
 
 @Data
-@ApiModel(value = "用户中注册")
-public class UserEntity {
+@ApiModel(value = "用户输出实体")
+public class UserOutDTO {
 
 	/**
      * userid
@@ -25,11 +25,6 @@ public class UserEntity {
 	 */
 	@ApiModelProperty(value = "邮箱")
 	private String email;
-	/**
-	 * 密码
-	 */
-	@ApiModelProperty(value = "密码")
-	private String password;
 	/**
 	 * 用户名称
 	 */
@@ -60,20 +55,20 @@ public class UserEntity {
 	 * 账号是否可以用 1 正常 0冻结
 	 */
 	@ApiModelProperty(value = "账号是否可以用 1 正常 0冻结")
-	private char is_avalible;
+	private char isAvalible;
 	/**
 	 * 用户头像
 	 */
 	@ApiModelProperty(value = " 用户头像")
-	private String pic_img;
+	private String picImg;
 	/**
 	 * 用户关联 QQ 开放ID
 	 */
 	@ApiModelProperty(value = "用户关联 QQ 开放ID")
-	private Date qq_openid;
+	private Date qqOpenid;
 	/**
 	 * 用户关联 微信 开放ID
 	 */
 	@ApiModelProperty(value = "用户关联 微信 开放ID")
-	private Date WX_OPENID;
+	private Date wxOpenid;
 }

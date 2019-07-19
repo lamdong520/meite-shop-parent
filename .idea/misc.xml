@@ -13,10 +13,12 @@
         <option value="$PROJECT_DIR$/meite-shop-basics/meite-shop-basics-springcloud-zuul/pom.xml" />
         <option value="$PROJECT_DIR$/meite-shop-common/meite-shop-common-core/pom.xml" />
         <option value="$PROJECT_DIR$/meite-shop-entity/meite-shop-entity-member/pom.xml" />
+        <option value="$PROJECT_DIR$/meite-shop-api-dto/meite-shop-member-dto/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/meite-shop-entity/pom.xml" />
         <option value="$PROJECT_DIR$/meite-shop-service-impl/pom.xml" />
       </set>
     </option>

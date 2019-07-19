@@ -1,6 +1,6 @@
 package com.cn.service;
 
-import com.cn.entity.UserEntity;
+import com.cn.output.UserOutDTO;
 import com.cn.utils.base.BaseResponse;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiImplicitParam;
@@ -14,6 +14,6 @@ public interface IMemberService {
     @ApiOperation(value = "根据手机号查询用户信息")
     @ApiImplicitParam(name = "mobile", dataType = "String", required = true, value = "手机号码")
     @GetMapping("/user/exist")
-    BaseResponse<UserEntity> existMobile(@RequestParam("mobile") String mobile);
+    BaseResponse<UserOutDTO> existMobile(@RequestParam("mobile") String mobile);
 
 }
